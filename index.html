@@ -39,15 +39,21 @@
 				How likely is that you would recommend freeCodeCamp to a friend?
 			</label>
 			<div id="radios">
+				<div class="radio-data">
 				<label>
 					<input type="radio" name="recommendation" class = "recommendation" value="Definitely">Definitely
 				</label><br/>
+				</div>
+				<div class="radio-data">
 				<label>
 					<input type="radio" name="recommendation" class = "recommendation" value="maybe">Maybe
 				</label></br/>
+				</div>
+				<div class="radio-data">
 				<label>
 					<input type="radio" name="recommendation" class = "recommendation" value = "NotSure">Not Sure
 				</label><br/>
+				</div>
 			</div>
 			<label for = "fcc">What do you like most in FCC:</label>
 			<select id = "fcc" name = "fcc">
@@ -57,6 +63,46 @@
 				<option value = "community">Community</option>
 				<option value="opensource">Open Source</option>
 			</select>
+			<label for = "improvements">Things that should be improved in the future (Check all that apply):</label>
+			<div id = "improvement-div">
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="fontend" class="improvements"><label for="frontend">Font-end Projects</label>
+				</div><br>
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="backend" class="improvements"><label for="backend">Back-end Projects</label>
+				</div><br>
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="datavisualization" class="improvements"><label for="datavisualization">Data Visualization</label>
+				</div><br>
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="challenges" class="improvements"><label for="challenges">Challenges</label>
+				</div><br>
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="opensourcecommunity" class="improvements"><label for="opensourcecommunity">Open Source Community</label>
+				</div><br />
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="gitterhelprooms" class="improvements"><label for="gitterhelprooms">Gitter Help Rooms</label>
+				</div><br/>
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="videos" class="improvements"><label for="videos">Videos</label>
+				</div><br/>
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="citymeetups" class="improvements"><label for="citymeetups">City Meetups</label>
+				</div><br/>
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="wiki" class="improvements"><label for="wiki">Wiki</label><br>
+				</div><br/>
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="forum" class="improvements"><label for="forum">Forum</label>
+				</div><br/>
+				<div class = "inner-improvement-div">
+				<input type="checkbox" name="additionalcourses" class="improvements"><label for="additionalcourses">
+				Additional Courses</label>
+				</div><br/>
+			</div>
+			<label for="comments">Any Comments or Suggestions?</label>
+			<textarea placeholder="Enter your comment here ..."></textarea>
+			<button type="submit" name="submit" id = "submitbutton">Submit</button>
 		</form>
 	</main>
 </div>

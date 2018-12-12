@@ -2,7 +2,7 @@ html,body{
 	margin: 0;
 	padding: 0;
 	background-color: #9EBBA9;
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	text-align: center;
 }
@@ -12,18 +12,11 @@ h1{
 }
 
 main{
+	padding-right: 20px;
 	padding-top: 10px;
 	background-color: #fff; 
 	border-radius: 0.3em;
-}
-
-.sup{
-	font-size: xx-small;
-
-}
-
-input{
-	height: 105%;
+	padding-bottom: 32%;
 }
 
 form{
@@ -32,14 +25,39 @@ form{
 	margin-right: 50px;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: repeat(9, auto);
-	/*line-height: 1.8;*/
-	grid-row-gap: 20px;
-	grid-column-gap: 10px;
+	grid-row-gap: 3%;
+	grid-column-gap: 4%;
 }
+
+#improve{
+	padding-bottom: 1.5%;
+}
+.sup{
+	font-size: xx-small;
+
+}
+
+input[type="text"]{
+	height: 105%;
+	position: relative;
+	top: -4px;
+}
+
 label{
+	font-size: 17px;
 	text-align: right;
 }
 
+p{
+	font-size: 17px;
+}
+.radio-data{
+	margin-bottom: 8px;
+	float: left;
+	width: 80%;
+	text-align: left;
+	font-size: 17px;
+}
 #radios>label{
 	font-size: 16.5px;
 	float: left;
@@ -53,10 +71,36 @@ input[type="radio"]{
 	float: left;	
 }
 
-.recommendation{
-
-}
 
 #fcc{
 	height: 110%;
+}
+
+input[type="checkbox"]{
+	float: left;
+}
+
+.inner-improvement-div{
+	margin-bottom: 10px;
+	float: left;
+	width: 80%;
+	text-align: left;
+	font-size: 18px;
+}
+
+textarea{
+	height: 130%;
+}
+
+#submitbutton{
+	background-color: #73887B;
+	color: #3B3B3B;
+	width: 70%;
+	height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 0.4em;
+	position: relative;
+	left: 35%;
+	margin: 10%;
 }
