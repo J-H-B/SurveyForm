@@ -62,7 +62,7 @@ p{
 	font-size: 16.5px;
 	float: left;
 }
-#role{
+#dropdown{
 	height: 80%;
 }
 
@@ -92,7 +92,7 @@ textarea{
 	height: 130%;
 }
 
-#submitbutton{
+#submit{
 	background-color: #73887B;
 	color: #3B3B3B;
 	width: 70%;
